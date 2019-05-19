@@ -100,23 +100,21 @@ ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.
 	android:name
 		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:21:27-74
 activity#marvel.android.game.messangergame.ListActivity
-ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:24:9-64
+ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:24:9-73
 	android:name
 		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:24:19-61
 activity#marvel.android.game.messangergame.SettingsActivity
-ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:25:9-77
+ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:25:9-26:20
 	android:name
 		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:25:19-65
 activity#marvel.android.game.messangergame.MainActivity
-ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:26:9-64
+ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:27:9-64
 	android:name
-		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:26:19-61
+		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:27:19-61
 activity#marvel.android.game.AndroidLauncher
-ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:27:9-29:20
-	android:screenOrientation
-		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:28:13-50
+ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:28:9-29:20
 	android:name
-		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:27:19-50
+		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:28:19-50
 uses-sdk
 INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml
