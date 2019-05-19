@@ -1,20 +1,21 @@
 package marvel.android.castleattackers.game.try2.castleattackers.screens;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
 import marvel.android.castleattackers.game.try2.castleattackers.Assets;
-import marvel.android.castleattackers.game.try2.castleattackers.CastleInvaders;
+import marvel.android.castleattackers.game.try2.castleattackers.CastleAttackers;
 import marvel.android.castleattackers.game.try2.castleattackers.Player;
 import marvel.android.castleattackers.game.try2.utils.OverlapTester;
 import marvel.android.castleattackers.game.try2.utils.exceptions.OutOfBoundingException;
 
 public class MainMenuScreen implements Screen {
 
-	final CastleInvaders game;
+	final CastleAttackers game;
 
 	OrthographicCamera camera;
 	Rectangle playBounds;
@@ -27,7 +28,7 @@ public class MainMenuScreen implements Screen {
 
 	private Player player;
 
-	public MainMenuScreen(final CastleInvaders gam, Player player) {
+	public MainMenuScreen(final CastleAttackers gam, Player player) {
 		game = gam;
 		this.player = player;
 		//Assets.load(game);
@@ -59,13 +60,13 @@ public class MainMenuScreen implements Screen {
 		game.batch.draw(Assets.playRegion, 80, 494, 150, 150);
 		game.batch.end();
 
+
+		if (Gdx.input.isKeyJustPressed(Input.Keys.BACK)) {
+			System.exit(0);
+		}
 		if(Gdx.input.justTouched()) {
 			camera.unproject(touchPoint.set(Gdx.input.getX(), Gdx.input.getY(),
 					0));
-			if (Gdx.input.isCatchBackKey()) {
-				System.exit(0);
-				this.dispose();
-			}
 			if(OverlapTester.pointInRectangle(playBounds, touchPoint.x,touchPoint.y))
 				try {
 					game.setScreen(new GameScreen(game));

@@ -1,15 +1,12 @@
 package marvel.android.game;
 
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 
-import marvel.android.castleattackers.game.try2.castleattackers.CastleInvaders;
 import marvel.android.flappygame.FlappyGame;
-import marvel.android.raindrops.Drop;
 
 public class AndroidLauncherP extends AndroidApplication {
     public volatile static Boolean on = false;

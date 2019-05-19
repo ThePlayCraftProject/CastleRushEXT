@@ -104,11 +104,15 @@ public class Player {
 		totalEnemiesKilled += kills;
 	}
 	
-	public void updatePrefs(final CastleInvaders game){
+	public void updatePrefs(final CastleAttackers game){
 		
 		coins = game.prefs.getInteger("coins");
 		gems = game.prefs.getInteger("gems");
 		level = game.prefs.getInteger("level");
+		if (level < 1) {
+			addLevel();
+			game.prefs.putInteger("level", level);
+		}
 		
 		totalEnemiesKilled = game.prefs.getInteger("totalEnemiesKilled");
 		

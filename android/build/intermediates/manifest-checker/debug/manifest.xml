@@ -24,19 +24,21 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
         <activity android:name="marvel.android.game.messangergame.GameSelector" >
+        </activity>
+        <activity android:name="marvel.android.game.messangergame.ListActivity" />
+        <activity android:name="marvel.android.game.messangergame.SettingsActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="marvel.android.game.messangergame.ListActivity" />
-        <activity android:name="marvel.android.game.messangergame.SettingsActivity" >
-        </activity>
         <activity android:name="marvel.android.game.messangergame.MainActivity" />
         <activity android:name="marvel.android.game.AndroidLauncher" >
         </activity>
-        <activity android:name="marvel.android.game.AndroidLauncherP" >
+        <activity
+            android:name="marvel.android.game.AndroidLauncherP"
+            android:screenOrientation="portrait" >
         </activity>
 
         <provider

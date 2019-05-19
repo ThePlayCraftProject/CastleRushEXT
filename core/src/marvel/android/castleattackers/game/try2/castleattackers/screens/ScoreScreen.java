@@ -7,12 +7,12 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Vector2;
 import marvel.android.castleattackers.game.try2.castleattackers.Assets;
-import marvel.android.castleattackers.game.try2.castleattackers.CastleInvaders;
+import marvel.android.castleattackers.game.try2.castleattackers.CastleAttackers;
 import marvel.android.castleattackers.game.try2.castleattackers.Player;
 
 public class ScoreScreen implements Screen, InputProcessor {
 
-	private CastleInvaders game;
+	private CastleAttackers game;
 	private Player player;
 	private OrthographicCamera camera;
 	static final float FRUSTUM_WIDTH = 1280;
@@ -25,8 +25,8 @@ public class ScoreScreen implements Screen, InputProcessor {
 	private Vector2 touchpoint;
 	private float timer;
 
-	public ScoreScreen(CastleInvaders game, Player player, Boolean win,
-			int earthDragonXP, int fireDragonXP, int iceDragonXP){
+	public ScoreScreen(CastleAttackers game, Player player, Boolean win,
+                       int earthDragonXP, int fireDragonXP, int iceDragonXP){
 		this.game = game;
 		this.player = player;
 		wonLastRound = win;

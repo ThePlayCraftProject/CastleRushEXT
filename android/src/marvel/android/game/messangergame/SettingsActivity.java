@@ -39,7 +39,7 @@ public class SettingsActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(SettingsActivity.this, ListActivity.class);
+                Intent i = new Intent(SettingsActivity.this, GameSelector.class);
                 name = NAME.getText().toString();
                 if (name.length() > 0) {
                     i.putExtra("name", name);

@@ -18,7 +18,7 @@ public class WorldRenderer {
 
 	static final float FRUSTUM_WIDTH = 1280;
 	static final float FRUSTUM_HEIGTH = 768;
-	final CastleInvaders game;
+	final CastleAttackers game;
 	public WorldRenderer renderer;
 	World world;
 	private TextureRegion keyFrame;
@@ -29,7 +29,7 @@ public class WorldRenderer {
 	private Player player;
 	private Table table;
 
-	public WorldRenderer(World world, final CastleInvaders gam, Player player,
+	public WorldRenderer(World world, final CastleAttackers gam, Player player,
                          Table table) {
 		this.world = world;
 		game = gam;

@@ -4,6 +4,7 @@ package marvel.android.castleattackers.game.try2.castleattackers.screens;
 
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
@@ -15,7 +16,7 @@ import marvel.android.castleattackers.ui.DragonUltiButton;
 import marvel.android.castleattackers.ui.ElementSwitcherButton;
 import marvel.android.castleattackers.ui.TextureElement;
 import marvel.android.castleattackers.game.try2.castleattackers.Assets;
-import marvel.android.castleattackers.game.try2.castleattackers.CastleInvaders;
+import marvel.android.castleattackers.game.try2.castleattackers.CastleAttackers;
 import marvel.android.castleattackers.game.try2.castleattackers.Player;
 import marvel.android.castleattackers.game.try2.castleattackers.World;
 import marvel.android.castleattackers.game.try2.castleattackers.World.Species;
@@ -28,7 +29,7 @@ import marvel.android.castleattackers.game.try2.utils.ui.Table;
 
 
 public class GameScreen implements Screen, InputProcessor {
-	final CastleInvaders game;
+	final CastleAttackers game;
 
 	static final int GAME_READY = 0;
 	static final int GAME_RUNNING = 1;
@@ -69,7 +70,7 @@ public class GameScreen implements Screen, InputProcessor {
 	
 	
 
-	public GameScreen(final CastleInvaders gam) throws OutOfBoundingException {
+	public GameScreen(final CastleAttackers gam) throws OutOfBoundingException {
 		this.game = gam;
 		sticked = false;
 		id = 0;
@@ -239,6 +240,9 @@ public class GameScreen implements Screen, InputProcessor {
 	}
 
 	private void presentRunning() {
+		if (Gdx.input.isKeyJustPressed(Input.Keys.BACK)) {
+			World.hp=0;
+		}
 		if (World.hp <= 0) {
 			this.state = GAME_OVER;
 			World.win = false;

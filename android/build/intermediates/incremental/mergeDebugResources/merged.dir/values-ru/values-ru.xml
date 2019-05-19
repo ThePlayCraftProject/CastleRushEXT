@@ -32,7 +32,7 @@
     <string name="command_button">Отправить</string>
     <string name="command_hint">Напиши здесь</string>
     <string name="ip">IP</string>
-    <string name="join_button">Подключиться</string>
+    <string name="join_button">Войти</string>
     <string name="login">Имя пользователя</string>
     <string name="port">Порт</string>
     <string msgid="146198913615257606" name="search_menu_title">"Поиск"</string>
