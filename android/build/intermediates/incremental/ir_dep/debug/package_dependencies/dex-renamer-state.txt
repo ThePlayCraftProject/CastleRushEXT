@@ -1,0 +1,4 @@
+#Sun May 19 17:23:21 MSK 2019
+base.0=C\:\\Users\\Sergey\\StudioProjects\\CastleRushCLONE\\android\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
