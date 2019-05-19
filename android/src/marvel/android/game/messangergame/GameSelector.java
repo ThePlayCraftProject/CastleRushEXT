@@ -8,10 +8,11 @@ import android.view.View;
 import com.badlogic.gdx.Game;
 
 import marvel.android.game.AndroidLauncher;
+import marvel.android.game.AndroidLauncherP;
 import marvel.android.game.R;
 
 public class GameSelector extends AppCompatActivity {
-    private boolean on = false;
+    private Boolean on = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,33 +21,39 @@ public class GameSelector extends AppCompatActivity {
     }
 
     @Override
-    protected void onResume() {
+    protected synchronized void onResume() {
         super.onResume();
         on = false;
     }
 
-    public void onRush(View v) {
-        if (!on) {
-            Intent i = new Intent(GameSelector.this, AndroidLauncher.class);
-            i.putExtra("type", 0);
-            startActivity(i);
-            on = true;
+    public synchronized void onRush(View v) {
+        synchronized (on) {
+            if (!on) {
+                Intent i = new Intent(GameSelector.this, AndroidLauncher.class);
+                i.putExtra("type", 0);
+                startActivity(i);
+                on = true;
+            }
         }
     }
-    public void onFlappy(View v) {
-        if (!on) {
-            Intent i = new Intent(GameSelector.this, AndroidLauncher.class);
-            i.putExtra("type", 1);
-            startActivity(i);
-            on = true;
+    public synchronized void onFlappy(View v) {
+        synchronized (on) {
+            if (!on) {
+                Intent i = new Intent(GameSelector.this, AndroidLauncherP.class);
+                i.putExtra("type", 1);
+                startActivity(i);
+                on = true;
+            }
         }
     }
-    public void onRainy(View v) {
-        if (!on) {
-            Intent i = new Intent(GameSelector.this, AndroidLauncher.class);
-            i.putExtra("type", 2);
-            startActivity(i);
-            on = true;
-        }
+    public synchronized void onRainy(View v) {
+            synchronized (on) {
+                if (!on) {
+                    Intent i = new Intent(GameSelector.this, AndroidLauncher.class);
+                    i.putExtra("type", 2);
+                    startActivity(i);
+                    on = true;
+                }
+            }
     }
 }

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-34:12
 MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta1] C:\Users\Sergey\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.0-beta1.aar\60f026015d054a3ddb002517f0b22c1b\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Sergey\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\71827d123528061f11adbe9558b46950\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Sergey\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\acbbfd4eb0f02b6e302761166d4104ad\AndroidManifest.xml:17:1-22:12
@@ -32,20 +32,20 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Sergey\.gradle\cach
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Sergey\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\0893ef92b561d78556408c982b4fbd5e\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Sergey\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1aaaa2dfc5dea0a9cbc91c3113defd35\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Sergey\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\518cb6e08107c4e3225bcf82c56a36d1\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml
 		INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml
-		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-34:12
 		INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml
-		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:1-34:12
 		INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:2:11-69
@@ -62,7 +62,7 @@ ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.
 	android:name
 		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:7:22-78
 application
-ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:9:5-30:19
+ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:9:5-32:19
 MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta1] C:\Users\Sergey\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.0-beta1.aar\60f026015d054a3ddb002517f0b22c1b\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:2.0.0-beta1] C:\Users\Sergey\.gradle\caches\transforms-1\files-1.1\constraint-layout-2.0.0-beta1.aar\60f026015d054a3ddb002517f0b22c1b\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Sergey\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\79e7f45c110bdaf070f0bc6d2dd7d9b4\AndroidManifest.xml:22:5-94
@@ -115,6 +115,10 @@ activity#marvel.android.game.AndroidLauncher
 ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:28:9-29:20
 	android:name
 		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:28:19-50
+activity#marvel.android.game.AndroidLauncherP
+ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:30:9-31:20
+	android:name
+		ADDED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml:30:19-51
 uses-sdk
 INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Sergey\StudioProjects\CastleRushEXT\android\AndroidManifest.xml

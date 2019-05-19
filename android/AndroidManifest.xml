@@ -27,6 +27,8 @@
         <activity android:name=".messangergame.MainActivity" />
         <activity android:name=".AndroidLauncher">
         </activity>
+        <activity android:name=".AndroidLauncherP" android:screenOrientation="portrait">
+        </activity>
     </application>
 
 </manifest>

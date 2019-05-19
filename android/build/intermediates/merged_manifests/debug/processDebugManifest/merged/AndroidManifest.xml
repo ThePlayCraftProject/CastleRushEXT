@@ -36,6 +36,8 @@
         <activity android:name="marvel.android.game.messangergame.MainActivity" />
         <activity android:name="marvel.android.game.AndroidLauncher" >
         </activity>
+        <activity android:name="marvel.android.game.AndroidLauncherP" >
+        </activity>
     </application>
 
 </manifest>

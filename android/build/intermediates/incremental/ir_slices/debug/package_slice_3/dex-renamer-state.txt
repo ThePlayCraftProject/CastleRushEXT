@@ -1,4 +1,4 @@
-#Sun May 19 19:27:49 MSK 2019
+#Sun May 19 20:01:04 MSK 2019
 base.0=C\:\\Users\\Sergey\\StudioProjects\\CastleRushEXT\\android\\build\\intermediates\\transforms\\dexMerger\\debug\\3
 path.0=classes.dex
 renamed.0=classes.dex

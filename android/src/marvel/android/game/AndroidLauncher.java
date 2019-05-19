@@ -11,9 +11,10 @@ import marvel.android.flappygame.FlappyGame;
 import marvel.android.raindrops.Drop;
 
 public class AndroidLauncher extends AndroidApplication {
-    public static boolean on = false;
+    public volatile static Boolean on = false;
+    public static final Object monitor = new Object();
     @Override
-    protected void onCreate (Bundle savedInstanceState) {
+    protected synchronized void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         AndroidApplicationConfiguration cfg = new AndroidApplicationConfiguration();
         //cfg.useGL20 = true;
@@ -23,16 +24,21 @@ public class AndroidLauncher extends AndroidApplication {
 
         Intent i = getIntent();
         int type = i.getExtras().getInt("type");
-        if (!on) {
-            switch (type) {
-                case 0: initialize(new CastleInvaders(), cfg); return;
-                case 1: setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-                    initialize(new FlappyGame(), cfg); return;
-                case 2: initialize(new Drop(), cfg); return;
-                default: setResult(RESULT_CANCELED);
-                on = true;
+        synchronized (monitor) {
+            if (!AndroidLauncher.on) {
+                switch (type) {
+                    case 0: initialize(new CastleInvaders(), cfg); return;
+                    case 2: initialize(new Drop(), cfg); return;
+                    default: setResult(RESULT_CANCELED);
+                }
             }
+            AndroidLauncher.on = true;
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
     }
 
     @Override
