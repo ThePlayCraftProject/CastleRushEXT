@@ -6,18 +6,18 @@ import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
 import marvel.android.castleattackers.game.try2.castleattackers.Assets;
-import marvel.android.castleattackers.game.try2.castleattackers.CastleAttackers;
+import marvel.android.castleattackers.game.try2.castleattackers.CastleRush;
 
 
 public class SplashScreen implements Screen {
-	final CastleAttackers game;
+	final CastleRush game;
 
 	OrthographicCamera camera;
 	Rectangle playBounds;
 	Rectangle exitBounds;
 	Vector3 touchPoint;
 
-	public SplashScreen(final CastleAttackers gam) {
+	public SplashScreen(final CastleRush gam) {
 		game = gam;
 
 		Assets.load(game);

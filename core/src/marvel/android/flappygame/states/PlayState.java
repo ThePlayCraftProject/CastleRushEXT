@@ -4,11 +4,13 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.math.MathUtils;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Array;
 
 import marvel.android.flappygame.FlappyGame;
 import marvel.android.flappygame.sprites.Bird;
+import marvel.android.flappygame.sprites.EnemyBird;
 import marvel.android.flappygame.sprites.Tube;
 
 
@@ -26,10 +28,12 @@ public class PlayState extends State {
     private Vector2 surfacePos1, surfacePos2;
     private BitmapFont font;
     private float backgroundPos1, backgroundPos2;
+    private Array<EnemyBird> enemybirds;
 
     public PlayState(GameStateManager gsm) {
         super(gsm);
         gsm.score = 0;
+        enemybirds = new Array<EnemyBird>();
         font = new BitmapFont();
         background = new Texture("bg.png");
         surface = new Texture("ground.png");
@@ -58,6 +62,19 @@ public class PlayState extends State {
         handlInput();
         updateSurface();
         bird.update(dt);
+
+        for (int i = 0; i < enemybirds.size; i++) {
+            EnemyBird enemyBird = enemybirds.get(i);
+            enemyBird.update(dt);
+            if (bird.getBounds().overlaps(enemyBird.getBounds())) {
+                gsm.death.play();
+                gsm.set(new GameoverState(gsm));
+            }
+            if (camera.position.x - camera.viewportWidth / 2 > enemyBird.getPosition().x + enemyBird.getBounds().getWidth()) {
+                enemyBird.reposition((int) (camera.position.x + camera.viewportWidth), (int) (MathUtils.random(surface.getHeight(), camera.viewportHeight-enemyBird.getBounds().getWidth())));
+            }
+        }
+
         updateBackground(dt);
         camera.position.x = bird.getPosition().x + 80;
         for (int i = 0; i < tubes.size; i++) {
@@ -67,6 +84,10 @@ public class PlayState extends State {
                 if (bird.getPosition().x > t.getPosTubeB().x + t.getTubeB().getWidth()) {
                     t.behind = true;
                     gsm.score++;
+                    if (enemybirds.size < gsm.score / 10) {
+                        EnemyBird enemyBird = new EnemyBird((int) (camera.position.x + camera.viewportWidth), (int) (MathUtils.random(surface.getHeight(), camera.viewportHeight-bird.getBounds().getWidth())), 10+gsm.score/10*10);
+                        enemybirds.add(enemyBird);
+                    }
                 }
                 if (t.collides(bird.getBounds())) {
                     gsm.death.play();
@@ -97,6 +118,9 @@ public class PlayState extends State {
         sb.draw(surface, surfacePos1.x, surfacePos1.y);
         sb.draw(surface, surfacePos2.x, surfacePos2.y);
         sb.draw(bird.getBird(), bird.getPosition().x, bird.getPosition().y);
+        for (EnemyBird e : enemybirds) {
+            sb.draw(e.getEnemyBird(), e.getPosition().x, e.getPosition().y);
+        }
         for (Tube t : tubes) {
             if (t.id == gsm.max_score) {
                 sb.draw(t.getTubeBG(), t.getPosTubeB().x, t.getPosTubeB().y);

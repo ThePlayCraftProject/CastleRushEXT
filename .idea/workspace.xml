@@ -13,25 +13,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a22b7624-5ba9-4ebc-aa0c-15d322b75c72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/EnemyBird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/death.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/death.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/sfx_wing.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/sfx_wing.ogg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-apk/debug/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/instant-run-apk/debug/android-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/CastleAttackers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/WorldRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/WorldRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/screens/ScoreScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/screens/ScoreScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/screens/StoreScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/castleattackers/game/try2/castleattackers/screens/StoreScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/flappygame/states/GameoverState.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/flappygame/states/GameoverState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/game/AndroidLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/game/AndroidLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/raindrops/Drop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/raindrops/MainMenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/raindrops/MainMenuScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/raindrops/MyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/marvel/android/raindrops/MyGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ziVZ1MBprNs4A2IkAyPKzG5rzMU=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ziVZ1MBprNs4A2IkAyPKzG5rzMU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ziVZ1MBprNs4A2IkAyPKzG5rzMU=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ziVZ1MBprNs4A2IkAyPKzG5rzMU=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/marvel/android/game/AndroidLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/marvel/android/game/AndroidLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_0.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_0.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_2.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_2.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_7.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_7.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_8.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_8.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/desktop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/CastleAttackers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/WorldRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/WorldRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/ScoreScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/ScoreScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/StoreScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/StoreScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/flappygame/states/GameoverState.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/flappygame/states/GameoverState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/raindrops/Drop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/raindrops/MainMenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/raindrops/MainMenuScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/raindrops/MyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/marvel/android/raindrops/MyGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/CastleAttackers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/WorldRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/WorldRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/ScoreScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/ScoreScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/StoreScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/castleattackers/game/try2/castleattackers/screens/StoreScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/flappygame/states/GameoverState.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/flappygame/states/GameoverState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/game/AndroidLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/game/AndroidLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/raindrops/Drop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/raindrops/MainMenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/raindrops/MainMenuScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/raindrops/MyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/marvel/android/raindrops/MyGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/marvel/android/game/AndroidLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/marvel/android/game/AndroidLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/CastleAttackers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/WorldRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/WorldRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/screens/ScoreScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/screens/ScoreScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/screens/StoreScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/castleattackers/game/try2/castleattackers/screens/StoreScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/flappygame/states/GameoverState.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/flappygame/states/GameoverState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/flappygame/states/PlayState.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/flappygame/states/PlayState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/raindrops/Drop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/raindrops/MainMenuScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/raindrops/MainMenuScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/raindrops/MyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/marvel/android/raindrops/MyGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/CastleAttackers.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/CastleRush.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/WorldRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/WorldRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/ScoreScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/ScoreScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/StoreScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/StoreScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/GameoverState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/GameoverState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/PlayState.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/PlayState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/raindrops/Drop.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/raindrops/Raindrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/raindrops/MainMenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/raindrops/MainMenuScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/marvel/android/raindrops/MyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/marvel/android/raindrops/MyGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/src/marvel/android/game/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/marvel/android/game/desktop/DesktopLauncher.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,22 +136,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.java">
+        <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/FlappyGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="167">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,10 +148,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/Assets.java">
+        <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/EnemyBird.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2397">
-              <caret line="148" column="86" selection-start-line="148" selection-start-column="86" selection-end-line="148" selection-end-column="86" />
+            <state relative-caret-position="187">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Tube.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-479">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Animation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Bird.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1398#1399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/states/PlayState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/marvel/android/game/AndroidLauncher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,14 +240,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/marvel/android/castleinvaders/game/noobygames/castleinvaders/Changelog.txt" />
-        <option value="$PROJECT_DIR$/core/src/marvel/android/castleinvaders/game/ty2/utils/OverlapTester.java" />
-        <option value="$PROJECT_DIR$/core/src/marvel/android/castleinvaders/game/try2/utils/OverlapTester.java" />
-        <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/utils/OverlapTester.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleinvaders/screens/GameScreen.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleinvaders/CastleInvaders.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleinvaders/screens/MainMenuScreen.java" />
-        <option value="$PROJECT_DIR$/desktop/src/marvel/android/game/desktop/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/spells/Spells.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/mobs/Croco.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/mobs/IceTroll.java" />
@@ -133,14 +257,11 @@
         <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/WorldRenderer.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/Settings.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Animation.java" />
-        <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Bird.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/GameStateManager2.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/MenuState.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/game/states/GameStateManager.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/State.java" />
-        <option value="$PROJECT_DIR$/core/src/marvel/android/raindrops/MainMenuScreen.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/game/menus/UnitMenu.java" />
-        <option value="$PROJECT_DIR$/android/src/marvel/android/game/AndroidLauncher.java" />
         <option value="$PROJECT_DIR$/android/src/marvel/android/game/AndroidLauncherP.java" />
         <option value="$PROJECT_DIR$/android/src/marvel/android/game/messangergame/GameSelector.java" />
         <option value="$PROJECT_DIR$/android/src/marvel/android/game/messangergame/SettingsActivity.java" />
@@ -157,11 +278,19 @@
         <option value="$PROJECT_DIR$/android/res/layout/activity_game_selector.xml" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/GameStateManager.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/FlappyGame.java" />
-        <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/GameoverState.java" />
-        <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/PlayState.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/Assets.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/MainMenuScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/marvel/android/raindrops/Drop.java" />
+        <option value="$PROJECT_DIR$/core/src/marvel/android/raindrops/Raindrop.java" />
         <option value="$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/GameoverState.java" />
+        <option value="$PROJECT_DIR$/core/src/marvel/android/raindrops/MyGame.java" />
+        <option value="$PROJECT_DIR$/desktop/src/marvel/android/game/desktop/DesktopLauncher.java" />
+        <option value="$PROJECT_DIR$/android/src/marvel/android/game/AndroidLauncher.java" />
+        <option value="$PROJECT_DIR$/core/src/marvel/android/raindrops/MainMenuScreen.java" />
+        <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Bird.java" />
+        <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/EnemyBird.java" />
+        <option value="$PROJECT_DIR$/core/src/marvel/android/flappygame/states/PlayState.java" />
       </list>
     </option>
   </component>
@@ -177,61 +306,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="game" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="game" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="messangergame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android" type="feadf853:AndroidModuleNode" />
-              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="e9137016:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -261,6 +335,74 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android" type="feadf853:AndroidModuleNode" />
+              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="flappygame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="flappygame" type="462c0819:PsiDirectoryNode" />
+              <item name="sprites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="desktop" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="desktop" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="CastleRushEXT" type="1abcf292:AndroidViewProjectNode" />
+              <item name="desktop" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="desktop" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +415,7 @@
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1558256913936" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1558371025470" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -392,9 +534,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21489972" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21489972" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -402,15 +545,15 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" weight="0.3295129" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Find" order="0" weight="0.32795697" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.32392472" />
+      <window_info anchor="bottom" id="Find" order="0" sideWeight="0.49928367" weight="0.3266129" />
+      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.49713466" visible="true" weight="0.32258064" />
       <window_info anchor="bottom" id="Logcat" order="2" weight="0.32258064" />
       <window_info anchor="bottom" id="TODO" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49928367" weight="0.32258064" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.497851" weight="0.32258064" />
       <window_info anchor="bottom" id="Terminal" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50143266" side_tool="true" visible="true" weight="0.33870968" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.5028653" side_tool="true" visible="true" weight="0.32258064" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293011" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49856734" visible="true" weight="0.33870968" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49641833" weight="0.33870968" />
       <window_info anchor="bottom" id="Android Profiler" order="9" />
       <window_info anchor="right" id="StringPreview" order="0" />
       <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" weight="0.19627507" />
@@ -460,13 +603,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.java</url>
-          <line>110</line>
+          <line>111</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -499,6 +636,12 @@
           <line>141</line>
           <properties />
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/marvel/android/flappygame/states/PlayState.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -568,36 +711,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/raindrops/Drop.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/raindrops/MyGame.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/raindrops/MainMenuScreen.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/game/menus/UnitMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/71827d123528061f11adbe9558b46950/jars/classes.jar!/android/support/v7/app/AppCompatViewInflater.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="379" column="20" selection-start-line="379" selection-start-column="20" selection-end-line="379" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/servertransaction/LaunchActivityItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/servertransaction/ActivityRelaunchItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -662,8 +775,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/res/layout/activity_settings.xml">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/marvel/android/game/messangergame/GameSelector.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -730,39 +843,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Animation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/states/MenuState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/marvel/android/game/AndroidLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/res/layout/item_list.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-1315" />
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/marvel/android/game/messangergame/ServerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -775,13 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="71" column="76" selection-start-line="71" selection-start-column="76" selection-end-line="71" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Tube.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -807,12 +885,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/marvel/android/game/messangergame/SettingsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -822,12 +900,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/res/layout/activity_game_selector.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1564">
           <caret line="92" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/marvel/android/game/logic/LogicGame.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -850,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/AndroidStudio/DeviceExplorer/emulator-5554/data/data/marvel.android.game/shared_prefs/FlappyGame.xml" />
     <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/ScoreScreen.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -865,67 +936,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/CastleAttackers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="32" column="67" lean-forward="true" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/res/layout/activity_logic_game.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1326">
           <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/states/GameStateManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/states/GameoverState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/states/PlayState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="95" column="47" selection-start-line="95" selection-start-column="47" selection-end-line="95" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/FlappyGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,17 +954,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/Assets.java">
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2397">
-          <caret line="148" column="86" selection-start-line="148" selection-start-column="86" selection-end-line="148" selection-end-column="86" />
+        <state relative-caret-position="204">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/GameScreen.java">
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="-85">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/screens/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/raindrops/MyGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/Assets.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/states/GameoverState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/castleattackers/game/try2/castleattackers/CastleRush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/marvel/android/game/desktop/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/marvel/android/game/AndroidLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/raindrops/MainMenuScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/raindrops/Raindrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/states/GameStateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/states/MenuState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/Tube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-479">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/FlappyGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/sprites/EnemyBird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/marvel/android/flappygame/states/PlayState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -37,7 +37,7 @@ public class MyGame implements Screen {
 
 	}
 
-	final Drop drop;
+	final Raindrop drop;
 	OrthographicCamera camera;
 	Texture dropImg;
 	Texture bucketImg;
@@ -49,7 +49,7 @@ public class MyGame implements Screen {
 	long lastDropTime;
 	int dropsGot;
 
-	public MyGame (final Drop drop) {
+	public MyGame (final Raindrop drop) {
 		this.drop = drop;
 		camera = new OrthographicCamera();
 		camera.setToOrtho(false, 800, 480);

@@ -3,20 +3,19 @@ package marvel.android.castleattackers.game.try2.castleattackers.screens;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
-import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
 import marvel.android.castleattackers.game.try2.castleattackers.Assets;
-import marvel.android.castleattackers.game.try2.castleattackers.CastleAttackers;
+import marvel.android.castleattackers.game.try2.castleattackers.CastleRush;
 import marvel.android.castleattackers.game.try2.castleattackers.Player;
 import marvel.android.castleattackers.game.try2.utils.OverlapTester;
 import marvel.android.castleattackers.game.try2.utils.exceptions.OutOfBoundingException;
 
 public class MainMenuScreen implements Screen {
 
-	final CastleAttackers game;
+	final CastleRush game;
 
 	OrthographicCamera camera;
 	Rectangle playBounds;
@@ -29,7 +28,7 @@ public class MainMenuScreen implements Screen {
 
 	private Player player;
 
-	public MainMenuScreen(final CastleAttackers gam, Player player) {
+	public MainMenuScreen(final CastleRush gam, Player player) {
 		game = gam;
 		this.player = player;
 		//Assets.load(game);

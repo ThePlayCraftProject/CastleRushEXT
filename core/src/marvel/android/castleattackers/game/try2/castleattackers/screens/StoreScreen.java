@@ -6,7 +6,7 @@ import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.math.Rectangle;
 
-import marvel.android.castleattackers.game.try2.castleattackers.CastleAttackers;
+import marvel.android.castleattackers.game.try2.castleattackers.CastleRush;
 import marvel.android.castleattackers.ui.StoreElement;
 import marvel.android.castleattackers.game.try2.castleattackers.Assets;
 import marvel.android.castleattackers.game.try2.castleattackers.Player;
@@ -18,11 +18,11 @@ import marvel.android.castleattackers.game.try2.utils.ui.Table;
 public class StoreScreen extends Store implements Screen, InputProcessor {
 
 	private OrthographicCamera camera;
-	private final CastleAttackers game;
+	private final CastleRush game;
 	private Store store;
 	private Table table;
 
-	public StoreScreen(CastleAttackers game, OrthographicCamera camera,
+	public StoreScreen(CastleRush game, OrthographicCamera camera,
                        Player player) {
 		super(player);
 		this.store = new Store(player);

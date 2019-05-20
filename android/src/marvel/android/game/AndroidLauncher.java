@@ -5,8 +5,8 @@ import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import marvel.android.castleattackers.game.try2.castleattackers.CastleAttackers;
-import marvel.android.raindrops.Drop;
+import marvel.android.castleattackers.game.try2.castleattackers.CastleRush;
+import marvel.android.raindrops.Raindrop;
 
 public class AndroidLauncher extends AndroidApplication {
     public volatile static Boolean on = false;
@@ -25,8 +25,8 @@ public class AndroidLauncher extends AndroidApplication {
         synchronized (monitor) {
             if (!AndroidLauncher.on) {
                 switch (type) {
-                    case 0: initialize(new CastleAttackers(), cfg); return;
-                    case 2: initialize(new Drop(), cfg); return;
+                    case 0: initialize(new CastleRush(), cfg); return;
+                    case 2: initialize(new Raindrop(), cfg); return;
                     default: setResult(RESULT_CANCELED);
                 }
             }

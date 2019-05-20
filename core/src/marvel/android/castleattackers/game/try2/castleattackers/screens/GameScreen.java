@@ -13,11 +13,12 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.Array;
+
+import marvel.android.castleattackers.game.try2.castleattackers.CastleRush;
 import marvel.android.castleattackers.ui.DragonUltiButton;
 import marvel.android.castleattackers.ui.ElementSwitcherButton;
 import marvel.android.castleattackers.ui.TextureElement;
 import marvel.android.castleattackers.game.try2.castleattackers.Assets;
-import marvel.android.castleattackers.game.try2.castleattackers.CastleAttackers;
 import marvel.android.castleattackers.game.try2.castleattackers.Player;
 import marvel.android.castleattackers.game.try2.castleattackers.World;
 import marvel.android.castleattackers.game.try2.castleattackers.World.Species;
@@ -30,7 +31,7 @@ import marvel.android.castleattackers.game.try2.utils.ui.Table;
 
 
 public class GameScreen implements Screen, InputProcessor {
-	final CastleAttackers game;
+	final CastleRush game;
 
 	static final int GAME_READY = 0;
 	static final int GAME_RUNNING = 1;
@@ -72,7 +73,7 @@ public class GameScreen implements Screen, InputProcessor {
 	private Music music;
 	
 
-	public GameScreen(final CastleAttackers gam) throws OutOfBoundingException {
+	public GameScreen(final CastleRush gam) throws OutOfBoundingException {
 		music = Assets.musicBackground;
 		music.setLooping(true);
 		music.play();

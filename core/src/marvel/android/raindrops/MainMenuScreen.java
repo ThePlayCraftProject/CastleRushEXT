@@ -6,10 +6,10 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 
 class MainMenuScreen implements Screen {
-    final Drop drop;
+    final Raindrop drop;
     OrthographicCamera camera;
 
-    public MainMenuScreen(final Drop drop) {
+    public MainMenuScreen(final Raindrop drop) {
         this.drop = drop;
         camera = new OrthographicCamera();
         camera.setToOrtho(false, 800, 480);
@@ -29,8 +29,7 @@ class MainMenuScreen implements Screen {
 
         drop.batch.setProjectionMatrix(camera.combined);
         drop.batch.begin();
-        drop.font.draw(drop.batch, "Catch all the raindrops!", 100, 150);
-        drop.font.draw(drop.batch, "Touch screen to continue!", 100, 100);
+        drop.font.draw(drop.batch, "Tap to start playing!", 100, 150);
         drop.batch.end();
 
         if (Gdx.input.isTouched()) {
