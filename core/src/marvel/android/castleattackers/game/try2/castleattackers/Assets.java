@@ -2,6 +2,7 @@ package marvel.android.castleattackers.game.try2.castleattackers;
 
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
@@ -16,6 +17,7 @@ public class Assets {
 	public static Texture menuBackground;
 	public static Pixmap pixmap;
 	public static Sound fireBallHit;
+	public static Music musicBackground;
 
 
 	public static Texture greytroll;
@@ -144,6 +146,7 @@ public class Assets {
 		greyTrollSelect = new Texture(Gdx.files.internal("data/greytrollselect.png"));
 		
 		fireBallHit = Gdx.audio.newSound(Gdx.files.internal("data/fireBallHit.wav"));
+		musicBackground = Gdx.audio.newMusic(Gdx.files.internal("data/invaders.mp3"));
 
 		golemselection = new Texture(
 				Gdx.files.internal("data/golemselection.png"));

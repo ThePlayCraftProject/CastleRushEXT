@@ -8,6 +8,7 @@ import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.audio.Music;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
@@ -67,10 +68,14 @@ public class GameScreen implements Screen, InputProcessor {
 	private boolean sticked;
 
 	private int lane;
-	
+
+	private Music music;
 	
 
 	public GameScreen(final CastleAttackers gam) throws OutOfBoundingException {
+		music = Assets.musicBackground;
+		music.setLooping(true);
+		music.play();
 		this.game = gam;
 		sticked = false;
 		id = 0;
@@ -133,6 +138,7 @@ public class GameScreen implements Screen, InputProcessor {
 	@Override
 	public void dispose() {
 		Gdx.input.setInputProcessor(null);
+		music.stop();
 	}
 
 	@Override

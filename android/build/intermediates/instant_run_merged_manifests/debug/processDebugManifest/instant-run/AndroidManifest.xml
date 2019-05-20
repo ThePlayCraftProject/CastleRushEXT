@@ -23,8 +23,10 @@
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat" >
-        <activity android:name="marvel.android.game.messangergame.GameSelector" >
-        </activity>
+        <activity
+            android:name="marvel.android.game.logic.LogicGame"
+            android:screenOrientation="landscape" />
+        <activity android:name="marvel.android.game.messangergame.GameSelector" />
         <activity android:name="marvel.android.game.messangergame.ListActivity" />
         <activity android:name="marvel.android.game.messangergame.SettingsActivity" >
             <intent-filter>
@@ -34,12 +36,12 @@
             </intent-filter>
         </activity>
         <activity android:name="marvel.android.game.messangergame.MainActivity" />
-        <activity android:name="marvel.android.game.AndroidLauncher" >
-        </activity>
+        <activity
+            android:name="marvel.android.game.AndroidLauncher"
+            android:screenOrientation="landscape" />
         <activity
             android:name="marvel.android.game.AndroidLauncherP"
-            android:screenOrientation="portrait" >
-        </activity>
+            android:screenOrientation="portrait" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

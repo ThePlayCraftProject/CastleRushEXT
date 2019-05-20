@@ -2,7 +2,9 @@ package marvel.android.flappygame;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.audio.Music;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
@@ -20,9 +22,12 @@ public class FlappyGame extends ApplicationAdapter {
 	private SpriteBatch batch;
 
 	private Music music;
+
+	public static Preferences preferences;
 	
 	@Override
 	public void create () {
+		preferences = Gdx.app.getPreferences("FlappyGame");
 		batch = new SpriteBatch();
 		gsm = new GameStateManager();
 		music = Gdx.audio.newMusic(Gdx.files.internal("music.mp3"));
@@ -44,6 +49,7 @@ public class FlappyGame extends ApplicationAdapter {
 	
 	@Override
 	public void dispose () {
+		gsm.dispose();
 		music.dispose();
 		batch.dispose();
 	}

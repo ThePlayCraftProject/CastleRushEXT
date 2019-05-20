@@ -14,9 +14,10 @@
         android:isGame="true"
         android:label="@string/app_name"
         android:theme="@style/Theme.AppCompat">
-        <activity android:name=".messangergame.GameSelector">
-        </activity>
-        <activity android:name=".messangergame.ListActivity"></activity>
+        <activity android:name=".logic.LogicGame"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name=".messangergame.GameSelector"></activity>
+        <activity android:name=".messangergame.ListActivity" />
         <activity android:name=".messangergame.SettingsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,10 +26,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".messangergame.MainActivity" />
-        <activity android:name=".AndroidLauncher">
-        </activity>
-        <activity android:name=".AndroidLauncherP" android:screenOrientation="portrait">
-        </activity>
+        <activity
+            android:name=".AndroidLauncher"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".AndroidLauncherP"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

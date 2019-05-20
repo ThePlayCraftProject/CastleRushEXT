@@ -75,7 +75,7 @@ public class ServerAdapter extends ArrayAdapter<Server> {
             ch.start();
         }
 
-        ImageButton btn = (ImageButton) convertView.findViewById(R.id.imageButton);
+        ImageButton btn = (ImageButton) convertView.findViewById(R.id.imageButton2);
 
         class MyListener implements View.OnClickListener {
             private Server server;
@@ -91,7 +91,7 @@ public class ServerAdapter extends ArrayAdapter<Server> {
         }
         btn.setOnClickListener(new MyListener(server));
 
-        ImageButton btn2 = (ImageButton) convertView.findViewById(R.id.imageButton2);
+        ImageButton btn2 = (ImageButton) convertView.findViewById(R.id.imageButton);
 
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override

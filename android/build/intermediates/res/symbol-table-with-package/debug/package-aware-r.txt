@@ -789,6 +789,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable o1
+drawable o2
+drawable o3
 drawable presence_invisible
 drawable presence_offline
 drawable presence_online
@@ -850,8 +853,6 @@ id bounce
 id button
 id button1
 id button2
-id button3
-id button4
 id buttonPanel
 id center
 id center_horizontal
@@ -887,7 +888,6 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
-id education
 id end
 id expand_activities_button
 id expanded_menu
@@ -896,6 +896,7 @@ id fill_horizontal
 id fill_vertical
 id flip
 id forever
+id game
 id gone
 id graph
 id graph_wrap
@@ -910,7 +911,11 @@ id ignore
 id image
 id imageButton
 id imageButton2
+id imageButton4
+id imageButton5
 id imageView
+id imageView2
+id imageView3
 id inText
 id info
 id input_text
@@ -933,6 +938,9 @@ id listMode
 id list_item
 id message
 id middle
+id minus
+id minus2
+id minus3
 id multiply
 id name
 id never
@@ -949,6 +957,8 @@ id parentRelative
 id path
 id pathRelative
 id percent
+id plus2
+id plus3
 id port
 id position
 id positionX
@@ -960,6 +970,9 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id res1
+id res2
+id res3
 id reverseSawtooth
 id right
 id right_icon
@@ -1003,6 +1016,8 @@ id startHorizontal
 id startVertical
 id stop
 id submenuarrow
+id submit2
+id submit3
 id submit_area
 id tabMode
 id tag_transition_group
@@ -1029,6 +1044,9 @@ id tv3
 id uniform
 id up
 id useLogo
+id v1
+id v2
+id v3
 id withText
 id wrap
 id wrap_content
@@ -1067,6 +1085,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_game_selector
 layout activity_list
+layout activity_logic_game
 layout activity_main
 layout activity_settings
 layout card_item
